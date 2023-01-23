@@ -79,7 +79,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![selectpipeline.png](/images/selectpipeline.png)
    
-   You may see a prompt that there are some active documents being processed by the pipeline
+   - You may see a prompt that there are some active documents being processed by the pipeline
    
    ![activesamplesprocessing.png](/images/activesamplesprocessing.png)
 
@@ -87,19 +87,19 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![cosmosdbtype.png](/images/cosmosdbtype.png)
 
-   Go to Data Explorer
+   - Go to Data Explorer
    
    ![cosmosdbdataexplorer.png](/images/cosmosdbdataexplorer.png)
 
-   From there, go to items
+   - From there, go to items
    
    ![cosmosdbitem.png](/images/cosmosdbitem.png)
 
-   Click on one of the items. This represents the output from the pipeline on the documents uploaded. Since we added the item in the pipeline  - **Convert the Invoice Output to a Simpler Format**, th output is simplified so we can create an indexer with **Search Service**.
+   - Click on one of the items. This represents the output from the pipeline on the documents uploaded. Since we added the item in the pipeline  - **Convert the Invoice Output to a Simpler Format**, th output is simplified so we can create an indexer with **Search Service**.
    
    ![oneitemjson.png](/images/oneitemjson.png)
     
-   Scroll through the results and check the output and compare with the invoice uploaded.
+   - Scroll through the results and check the output and compare with the invoice uploaded.
 
 1. The get to **Search Service**. To view the results, go to portal.azure.com ([Azure Portal](portal.azure.com)) again in your browser and get to the resource group like we did earlier in Step 1. There, in the resource group, click on the resource that is of type **Search Service**. 
     
@@ -139,7 +139,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
 1. Make all fields **Retrievable** and **Searchable**
    
-   ![Retrievable.png](/images/Retrievable.png)
+   ![Retrievable.png](/images/retrievable.png)
 
 1. Under **aggregatedResults**-> **simplifyInvoice** Select, customerName, invoiceId, invoicedate and dueDate to be filterable and sortable
    
