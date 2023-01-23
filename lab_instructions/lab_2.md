@@ -36,12 +36,12 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 ![](images/step2a-Create-custom-labeling-project.png)  
 ![](images/step2b-Create-custom-labeling-project.png)  
 
-Create Custom Model Project  
+- Create Custom Model Project  
 
 ![](images/step2c-Create-custom-labeling-project.png)  
 ![](images/step2d-Create-custom-labeling-project.png)  
 
-Provide the storage account and container containing the forms data which you will like to label  
+- Provide the storage account and container containing the forms data which you will like to label  
 
 ![](images/step2e-Create-custom-labeling-project.png)  
 ![](images/step2f-Create-custom-labeling-project.png)  
@@ -52,46 +52,65 @@ Provide the storage account and container containing the forms data which you wi
 ![](images/step3a-import-sample-data.png)  
 ![](images/step3b-import-sample-data.png)  
 
-Create a new field which you would like to label  
+- Create a new field which you would like to label  
 
 ![](images/step3c-import-sample-data.png)  
-We created the label as "Organziation_sample"  
+
+- We created the label as "Organziation_sample"  
 
 ![](images/step3d-import-sample-data.png)  
 
-Apply the custom label to form fields  
+- Apply the custom label to form fields  
+
 ![](images/step3e-import-sample-data.png)  
-Apply the labels to all forms by repeating the process in step e  
+- Apply the labels to all forms by repeating the process in step e  
+
 ![](images/step3f-import-sample-data.png)  
+
 #### Step 4 - Train the model 
-After labeling the forms, click on "Train" and provide the below information
+
+- After labeling the forms, click on "Train" and provide the below information
 ![](images/step4a-train-the-model.png)  
+
 ![](images/step4b-train-the-model.png)  
+
 #### Step 5 - Test the Model on Test Data
+
 ![](images/step5a-test-the-model.png)  
+
 ![](images/step5b-test-the-model.png)  
-Load the test file and click "Analyze"  
+- Load the test file and click "Analyze"  
+
 ![](images/step5c-test-the-model.png)  
-The results are projected with the confidence score  
+
+- The results are projected with the confidence score  
+
 ![](images/step5d-test-the-model.png)  
 
 
 #### Build new pipeline with custom model module in BPA  
-After you are sastified with the custom model performance, you can retrieve the model ID and use it in a new BPA pipeline with the Cusom Model module.
 
-Please repeat the steps in [Lab 1](/lab_instructions/lab_1.md) to create the following pipeline:
+- After you are sastified with the custom model performance, you can retrieve the model ID and use it in a new BPA pipeline with the Cusom Model module.
+
+- Please repeat the steps in [Lab 1](/lab_instructions/lab_1.md) to create the following pipeline:
 ![](images/step6a-deploy-custom-model.png) 
+
 ![](images/step6b-deploy-custom-model.png) 
+
 ![](images/step6c-deploy-custom-model.png) 
 
-Retrieve the trained custom model ID from the Form Recognizer Studio and Enter it into the following window:
+- Retrieve the trained custom model ID from the Form Recognizer Studio and Enter it into the following window:
 ![](images/step6d-deploy-custom-model.png) 
+
 ![](images/step6e-deploy-custom-model.png) 
 
-Run the pipeline and visualize results in CosmosDB and search service as detailed in [Lab 1](/lab_instructions/lab_1.md).
+- Run the pipeline and visualize results in CosmosDB and search service as detailed in [Lab 1](/lab_instructions/lab_1.md).
 ![](images/step6f-deploy-custom-model.png) 
+
 ![](images/step6g-deploy-custom-model.png) 
 
 ## More Resources  
+
 Getting Started with Form Recognizer Studio - https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/form-recognizer-studio-overview?view=form-recog-3.0.0  
+
 Form Recognizer Documentation - https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-invoice?view=form-recog-3.0.0
