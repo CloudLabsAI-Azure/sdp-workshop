@@ -33,7 +33,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
    ![resourceswithinresourcegroup.png](/images/resourceswithinresourcegroup.png)
 
-   1. Look for the Static Web App under **type**. This is what we will use as a part of lab 1. Click on the Web App.
+   2. Look for the Static Web App under **type**. This is what we will use as a part of lab 1. Click on the Web App.
     
    ![staticwebappresource.png](/images/staticwebappresource.png)
 
