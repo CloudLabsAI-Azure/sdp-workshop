@@ -23,7 +23,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
 1. Launch the accelerator from the resource group in the Static Web App
 
-   1. To do this go to portal.azure.com ([Azure Portal](portal.azure.com)) from a web browser and click on resource group that is created for the purpose of this lab.
+   - To do this go to portal.azure.com ([Azure Portal](portal.azure.com)) from a web browser and click on resource group that is created for the purpose of this lab.
    
    ![resourcegroup.png](/images/resourcegroup.png)
    
@@ -33,7 +33,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
    ![resourceswithinresourcegroup.png](/images/resourceswithinresourcegroup.png)
 
-   2. Look for the Static Web App under **type**. This is what we will use as a part of lab 1. Click on the Web App.
+   - Look for the Static Web App under **type**. This is what we will use as a part of lab 1. Click on the Web App.
     
    ![staticwebappresource.png](/images/staticwebappresource.png)
 
@@ -73,7 +73,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![home1.png](/images/home1.png)
 
-    ![ingestdocuments.png](/images/ingestdocuments.png)
+   ![ingestdocuments.png](/images/ingestdocuments.png)
 
 1. Select the pipeline you just created **first** from the dropdown and then drop documents from Sample Invoices folder. Use Sample 7 folder and drop a few documents from there.
    
@@ -87,7 +87,6 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![cosmosdbtype.png](/images/cosmosdbtype.png)
 
-   
    Go to Data Explorer
    
    ![cosmosdbdataexplorer.png](/images/cosmosdbdataexplorer.png)
@@ -96,7 +95,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![cosmosdbitem.png](/images/cosmosdbitem.png)
 
-    Click on one of the items. This represents the output from the pipeline on the documents uploaded. Since we added the item in the pipeline  - **Convert the Invoice Output to a Simpler Format**, th output is simplified so we can create an indexer with **Search Service**.
+   Click on one of the items. This represents the output from the pipeline on the documents uploaded. Since we added the item in the pipeline  - **Convert the Invoice Output to a Simpler Format**, th output is simplified so we can create an indexer with **Search Service**.
    
    ![oneitemjson.png](/images/oneitemjson.png)
     
@@ -118,13 +117,14 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![selectcosmosdb.png](/images/selectcosmosdb.png)
 
-
 1. Keep the default for **Managed identity Authentication**, which is **None**. For **Databases** and **Collection** use the dropdown to select the same name as the Cosmos DB you selected at step 15. 
 
 1. Under Query, use the following Query.  The pipeline should match the pipeline name you used in step 3
    
+   ```
    > SELECT * from c WHERE c.id != 'pipelines' AND c.id != 'cogsearch'  AND c.pipeline = 'lab1pipeline' AND c._ts >= @HighWaterMark ORDER by c._ts
-
+   ```
+   
    ![importdata.png](/images/importdata.png)
 
 1. Click **Next: Add cognitive skills (Optional)**. This validates and creates the index schema. 
@@ -144,7 +144,6 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 1. Under **aggregatedResults**-> **simplifyInvoice** Select, customerName, invoiceId, invoicedate and dueDate to be filterable and sortable
    
    ![simplifyinvoicefiltersort.png](/images/simplifyinvoicefiltersort.png)
-
 
 1. Similarly, under **aggregatedResults**-> **items**, select all fields to be filterable and sortable.
    
@@ -181,8 +180,10 @@ We can extend this lab further by using Form Recognizer Layout Service and check
 
 1. Now, we need to configure **Search Service** for table search. This can be configured similar to steps 12-17. The Query will be slightly different from what we used in step 17 and also make sure the pipeline is the name of the pipeline created for this step. Note that this query filters for **table** type 
 
+   ```
    > SELECT * from c WHERE c.id != 'pipelines' AND c.id != 'cogsearch'  AND c.pipeline = 'lab1table' AND c.type = 'table' AND c._ts >= @HighWaterMark ORDER by c._ts
-
+   ```
+   
 1. Follow steps 18-19 as before and when you get to **Customize target index** section, give the index a name that helps identify that it is a table index and then make all fields **Searchable** and **Retrievable** and the table data and id **Filterable** and **Facetable**. 
    ![tableindexoptions.png](/images/tableindexoptions.png)
 
