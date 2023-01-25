@@ -41,17 +41,13 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
-   
-1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
-
-   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas1.jpg?raw=true)   
+1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour. 
    
 1. Launch the accelerator from the resource group in the Static Web App
 
-   - To do this go to portal.azure.com ([Azure Portal](portal.azure.com)) from a web browser and click on resource group that is created for the purpose of this lab.
-   
-   ![resourcegroup.png](/images/resourcegroup.png)
+   - From the Azure portal, click on **Resource groups** from the Navigate panel to see the resource groups.
+
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas1.jpg?raw=true)  
    
    Click on the **business-process** resource group that is created for this lab, you should be able to see resources deployed as a part of Business Process Automation accelerator deployment.
     
