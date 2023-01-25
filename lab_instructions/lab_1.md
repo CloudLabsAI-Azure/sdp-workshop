@@ -101,7 +101,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![selectpipeline.png](/images/selectpipeline.png)
    
-1.  Click on **upload** button. Navigate to `C:\Users\demouser\Desktop\sdp-workshop-main\SampleInvoices\Sample 7` folder and select few documents from there.  
+1.  Click on **upload** button. Navigate to `C:\Users\demouser\Desktop\sdp-workshop-main\SampleInvoices` folder and upload the required documents from there.  
 
    ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas11.jpg?raw=true)
    
