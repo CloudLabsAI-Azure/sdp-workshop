@@ -23,19 +23,19 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
 1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
 
-   ![resourcegroup.png](/images/bpas2.jpg)   
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas2.jpg?raw=true)   
    
 1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    
-   ![resourcegroup.png](/images/bpas3.jpg) 
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas3.jpg?raw=true)) 
      
 1. Now enter the following password and click on **Sign in**.
    
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
-   ![resourcegroup.png](/images/bpas4.jpg) 
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas4.jpg?raw=true)
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
@@ -45,7 +45,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
 1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
-   ![resourcegroup.png](/images/bpas1.jpg)   
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas1.jpg?raw=true)   
    
 1. Launch the accelerator from the resource group in the Static Web App
 
@@ -53,19 +53,19 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![resourcegroup.png](/images/resourcegroup.png)
    
-   Click on the resource group that is created for this lab, you should be able to see resources deployed as a part of Business Process Automation accelerator deployment.
+   Click on the **business-process** resource group that is created for this lab, you should be able to see resources deployed as a part of Business Process Automation accelerator deployment.
     
    > **Note :** The names will be different in your specific labs and will not exactly match with the names of the resources or resource group
 
-   ![resourceswithinresourcegroup.png](/images/resourceswithinresourcegroup.png)
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas5.jpg?raw=true)   
 
    - Look for the Static Web App under **type**. This is what we will use as a part of lab 1. Click on the Web App.
     
-   ![staticwebappresource.png](/images/staticwebappresource.png)
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas6.jpg?raw=true)  
 
    Click on the URL and this will launch the accelerator
     
-   ![swaurl.png](/images/swaurl.png)
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas7.jpg?raw=true)  
 
 1. This is the home page of the Accelerator. Click on Configure a new pipeline
     
