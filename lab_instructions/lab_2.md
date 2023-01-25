@@ -27,13 +27,33 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 - [Step 5 - Test the Model on Test Data](#step-5---test-the-model-on-test-data)   
 
 #### Step 1 - Create a Form Recognizer Resource  
-![](images/step1a-create-form-rec-resource.png)  
-![](images/step1b-create-form-rec-resource.png)  
-![](images/step1c-create-form-rec-resource.png)  
+
+- From the Azure portal, click on **Resource groups** from the Navigate panel to see the resource groups.
+
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas1.jpg?raw=true)  
+   
+- Click on the **business-process** resource group that is created for this lab, you should be able to see resources deployed as a part of Business Process Automation accelerator deployment.
+    
+   > **Note :** The names will be different in your specific labs and will not exactly match with the names of the resources or resource group
+
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas5.jpg?raw=true) 
+   
+- Select the **Cognitive service accpunt** of type **Cognitive services multi-service account** which you'll be using in this lab. 
+
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas8.jpg?raw=true)
+   
+- From the overview page, scroll down a bit and select **Form Recognizer**.
+
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas9.jpg?raw=true)
+   
+- From the Form Recognizer tab, Click on **Go to Studio** button to navigate to **Form Recognizer studio**.
+
+   ![resourcegroup.png](https://github.com/shivashant25/sdp-workshop/blob/main/lab_instructions/images/bpas10.jpg?raw=true)
+   
+   >**Note**: If the Login prompt pops-up, use the same credentials mentioned in the Environment details tab   
 
 #### Step 2 - Open Form Recognizer Studio and Create a Custom Labeling Project 
-
-![](images/step2a-Create-custom-labeling-project.png)  
+ 
 ![](images/step2b-Create-custom-labeling-project.png)  
 
 - Create Custom Model Project  
