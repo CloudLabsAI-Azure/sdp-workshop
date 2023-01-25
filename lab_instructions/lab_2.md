@@ -20,13 +20,13 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 ### Instructions
 
 #### Create a Custom Model  
-- [Step 1 - Create a Form Recognizer Resource](#step-1---create-a-form-recognizer-resource)  
+- [Step 1 - Open Form Recognizer Resource](#step-1---Open-Form-Recognizer-Resource)  
 - [Step 2 - Open Form Recognizer Studio and Create a Custom Labeling Project ](#step-2---open-form-recognizer-studio-and-create-a-custom-labeling-project)  
 - [Step 3 - Import the Sample Data](#step-3---import-the-sample-data)  
 - [Step 4 - Train the model](#step-4---train-the-model)  
 - [Step 5 - Test the Model on Test Data](#step-5---test-the-model-on-test-data)   
 
-#### Step 1 - Create a Form Recognizer Resource  
+#### Step 1 - Open Form Recognizer Resource  
 
 - From the Azure portal, click on **Resource groups** from the Navigate panel to see the resource groups.
 
