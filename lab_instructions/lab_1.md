@@ -23,19 +23,19 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 
 1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
 
-   ![resourcegroup.png](/images/bpas2.png)   
+   ![resourcegroup.png](/images/bpas2.jpg)   
    
 1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    
-   ![resourcegroup.png](/images/bpas3.png)  
+   ![resourcegroup.png](/images/bpas3.jpg) 
      
 1. Now enter the following password and click on **Sign in**.
    
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
-   ![resourcegroup.png](/images/bpas4.png)  
+   ![resourcegroup.png](/images/bpas4.jpg) 
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
@@ -45,7 +45,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
 1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
-   ![resourcegroup.png](/images/bpas1.png)   
+   ![resourcegroup.png](/images/bpas1.jpg)   
    
 1. Launch the accelerator from the resource group in the Static Web App
 
