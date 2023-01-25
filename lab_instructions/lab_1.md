@@ -148,7 +148,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 1. Under Query, use the following Query.  The pipeline should match the pipeline name you used in step 3
    
    ```
-   > SELECT * from c WHERE c.id != 'pipelines' AND c.id != 'cogsearch'  AND c.pipeline = 'lab1pipeline' AND c._ts >= @HighWaterMark ORDER by c._ts
+   SELECT * from c WHERE c.id != 'pipelines' AND c.id != 'cogsearch'  AND c.pipeline = 'lab1pipeline' AND c._ts >= @HighWaterMark ORDER by c._ts
    ```
    
    ![importdata.png](/images/importdata.png)
