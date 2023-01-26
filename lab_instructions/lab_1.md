@@ -167,7 +167,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![retrievable.png](/images/retrievable.png)
 
-1. Under **aggregatedResults**-> **simplifyInvoice** Select, customerName, invoiceId, invoicedate and dueDate to be filterable and sortable
+1. Under **aggregatedResults**-> **simplifyInvoice** Select, customerName, invoiceId, invoicedate and dueDate to be filterable and facetable.
    
    ![simplifyinvoicefiltersort.png](/images/simplifyinvoicefiltersort.png)
 
@@ -198,7 +198,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
 #### Part 2
 We can extend this lab further by using Form Recognizer Layout Service and check how we can retrieve information in the form of tables using Azure Cognitive Search.
 
-1. Create a new pipeline using the layout service and extract information for table search. The steps will be similar to Steps 1-8 in **Part 1** that you just did. The pipeline page before you click **Done** at Step 7 should like like the screen shot below:
+1. Create a new pipeline named as **lab1table** using the layout service and extract information for table search. The steps will be similar to Steps 1-8 in **Part 1** that you just did. The pipeline page before you click **Done** at Step 7 should like like the screen shot below:
    
    ![pipelinetablesearch.png](/images/pipelinetablesearch.png)
 
