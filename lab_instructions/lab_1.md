@@ -207,7 +207,7 @@ We can extend this lab further by using Form Recognizer Layout Service and check
 1. Now, we need to configure **Search Service** for table search. This can be configured similar to steps 12-17. The Query will be slightly different from what we used in step 17 and also make sure the pipeline is the name of the pipeline created for this step. Note that this query filters for **table** type 
 
    ```
-   > SELECT * from c WHERE c.id != 'pipelines' AND c.id != 'cogsearch'  AND c.pipeline = 'lab1table' AND c.type = 'table' AND c._ts >= @HighWaterMark ORDER by c._ts
+    SELECT * from c WHERE c.id != 'pipelines' AND c.id != 'cogsearch'  AND c.pipeline = 'lab1table' AND c.type = 'table' AND c._ts >= @HighWaterMark ORDER by c._ts
    ```
    
 1. Follow steps 18-19 as before and when you get to **Customize target index** section, give the index a name that helps identify that it is a table index and then make all fields **Searchable** and **Retrievable** and the table data and id **Filterable** and **Facetable**. 
