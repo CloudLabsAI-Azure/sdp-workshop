@@ -67,7 +67,7 @@ In this lab, you will create (train) an Azure Form Recognizer custom model using
 ![](images/step2f-Create-custom-labeling-project.png)  
 ![](images/step2g-Create-custom-labeling-project.png)  
 
-#### Step 3 - Import the Sample Data  
+#### Step 3 - Import the Sample Data - navigate to C:\Users\demouser\Desktop\sdp-workshop-main\SampleInvoices` folder and upload the required documents from there.  
 
 ![](images/step3a-import-sample-data.png)  
 ![](images/step3b-import-sample-data.png)  
