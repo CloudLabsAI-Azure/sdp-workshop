@@ -171,7 +171,7 @@ In this lab, you will create a pipeline with the Business Process Automation Acc
    
    ![simplifyinvoicefiltersort.png](/images/simplifyinvoicefiltersort.png)
 
-1. Similarly, under **aggregatedResults**-> **items**, select all fields to be filterable and sortable.
+1. Similarly, under **aggregatedResults**-> **items**, select all fields to be filterable and facetable.
    
    ![itemsfileterableandsortable.png](/images/itemsfileterableandsortable.png)
 
